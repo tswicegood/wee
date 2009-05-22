@@ -1,0 +1,21 @@
+wee: a wee little framework
+===========================
+
+This is a small proof of concept to show how to write a microframework in
+PHP 5.3 using closures.  This is currently just a proof-of-concept, treat it
+as such.
+
+
+TODO
+----
+ 
+ * scratch and rewrite using TDD
+ * rewrite using new naming standard
+ * add in a Request object
+    * pass in Request object as first parameter
+    * add plugins to handle various things from the request object
+ * pass in matched parameters from the route
+ * add named parameters to Request object
+ * add unnamed matched parameters to a Request->params arra
+
+
